@@ -1,3 +1,27 @@
-* {
+* html {
   box-sizing: border-box;
+}
+.wrapper {
+  width: 700px;
+}
+.header {
+  background-color: #e29938;
+  color: #6d4817;
+}
+.imgholder {
+  width: 700px;
+}
+.imgrow1 {
+  width: 700px;
+  padding: 10px 10px 10px 10px;
+}
+.imgrow2 {
+  width: 700px;
+  padding: 10px 10px 10px 10px;
+}
+.facepic {
+  float:left;
+  width: 120px;
+  height: 90px;
+  border: 2px solid blue;
 }
