@@ -1,38 +1,69 @@
-* html {
+body {
   box-sizing: border-box;
 }
 
-.wrapper {
-  width: 700px;
+.wrapmeamadeus {
+  width: 600px;
 }
 
+.subheader {
+  padding: 0 10px 0 10px;
+  font-weight: bold;
+}
+
+.friendnumber {
+  font-weight: bold;
+  color: red;
+}
 .header {
   background-color: #e29938;
   color: #6d4817;
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 .imgholder {
-  width: 700px;
+  width: 580px;
+  margin:0px 10px 0px 10px;
 }
 
 .imgrow1 {
-  margin-top: 50px;
-  width: 700px;
-  height: 220px;
+
+  display: inline-block;
+  width: 580px;
+  height: 110px;
+  margin-bottom: 20px
 }
+
 
 .imgrow2 {
-  width: 700px;
-  height: 220px;
+  display: inline-block;
+  width: 580px;
+  height: 110px;
+  margin-bottom: 20px;
 }
-
+.facekeeper {
+  height: 140px;
+  float: left;
+}
 .facepic {
-  float:left;
+  object-fit: cover;
   width: 120px;
   height: 90px;
-  margin: 10px 20px 10px 20px;
+  margin: 5px 10px 5px 10px;
   border: 2px solid blue;
 }
 .footer {
-  float: right;
+  text-align: right;
+  font-size: 12px;
+  font-weight: bold;
+  color: red;
+  padding-top: 15px;
+  margin-top: 15px;
+
+}
+.name-text {
+  position: relative;
+  text-align: center;
+  top: 20px;
 }
