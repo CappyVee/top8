@@ -28,7 +28,8 @@ body {
 }
 
 .imgrow1 {
-
+  position:absolute;
+  top: 60px;
   display: inline-block;
   width: 580px;
   height: 110px;
@@ -37,6 +38,8 @@ body {
 
 
 .imgrow2 {
+  position:absolute;
+  top:220px;
   display: inline-block;
   width: 580px;
   height: 110px;
@@ -54,12 +57,16 @@ body {
   border: 2px solid blue;
 }
 .footer {
+  position: absolute;
+  left: 400px;
+  top: 360px;
   text-align: right;
   font-size: 12px;
   font-weight: bold;
   color: red;
   padding-top: 15px;
   margin-top: 15px;
+
 
 }
 .name-text {
